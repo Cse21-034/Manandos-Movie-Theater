@@ -1,0 +1,143 @@
+
+html{
+     overflow:auto;
+     padding-bottom: 1px;
+     background-color:black;
+}
+/*========================search box=====================*/
+.search-box{
+background-color: black;
+padding: 3px 20px;
+border-radius: 20px;
+height: 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-right: 20px;
+margin-left: 80%;
+}
+.search-box input{
+     background-color: transparent;
+     border:red;
+     outline : none;
+     color:white;
+}
+.search-box input::placeholder{
+     color: gray;
+}
+.search-box button{
+    /* background-color: transparent;*/
+     color: white;
+     float: none;
+}
+.search-box button i{
+     padding: 1px;
+}
+
+header p{
+     background-color:black;
+     padding: 7px;
+     border: 2px solid red;
+     margin-top: 1%;
+     margin-right: 85%;
+     color:red;
+     font-size:x-large;
+     text-shadow: 3px -3px 3px rgb(228, 143, 15); 
+     text-align:center;
+ }
+
+h1{
+   font-size: larger;
+     color:aliceblue;
+     background:transparent;
+     text-align: center;
+}
+.list1{
+  list-style-type: none; 
+  padding: 0px; 
+  overflow: hidden; 
+  background-color: black;
+}
+
+li .nav{
+     float: left;
+     display: block;
+     color:red;
+     padding: 10px 15px;
+     text-align: center;
+     border-right: 1px solid block;
+     min-width: 60px;
+     } 
+     .list1 ul {
+          position: absolute;
+          margin-top: 5%;
+     }
+
+ .list1 ul li{
+      width: 170px;
+      border:1px solid red;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      float: left;
+      color: beige;
+      position: relative;
+ }    
+
+li .nav:hover{background-color: orange;}
+button {
+     background-color: red;
+     position: center;
+     
+}
+ button:hover {
+     background-color: orange;
+}
+
+section{
+     float:left;
+}
+#Cate li{
+float:left;
+display:block;
+align-items: center;
+min-width: 70px;
+}
+
+#container4>h1{
+
+     font-size:50px;
+     text-align:center;
+     margin-right:30%;
+     color:white;
+    }
+    .formcontainer{
+        
+    
+        margin-top:1px;
+        padding: 1px;;
+        background-color:black;
+        color:white;
+    }
+    form{
+    
+        padding:5px;
+        background-color:black;
+    }
+/*===============================================footer==============================*/
+
+footer{
+     text-align: center;
+     background-color:#3d0501;
+     margin: 2px;
+     color: aliceblue;
+}
+i{
+  color:blue; 
+  padding-top: 50px;
+  min-width: 40px;
+}
+i:hover{
+     rotate: 5%;
+}
+/*========================================ABOUT US PAGE=================================*/
