@@ -4,6 +4,9 @@ html{
      padding-bottom: 1px;
      background-color:black;
 }
+p{
+  color:white;   
+}
 /*========================search box=====================*/
 .search-box{
 background-color: black;
