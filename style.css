@@ -69,7 +69,7 @@ li .nav{
      border-right: 1px solid block;
      min-width: 60px;
      } 
-    .list1 ul {
+   /* .list1 ul {
           position: absolute;
           margin-top: 5%;
      }
@@ -83,9 +83,12 @@ li .nav{
       float: left;
       color: beige;
       position: relative;
- }    
+ }   */ 
 
-li .nav:hover{background-color: orange;}
+li .nav:hover{
+     background-color: orange;
+}
+/*=====================================================buttons=============================*/
 button {
      background-color: red;
      position: center;
@@ -95,16 +98,14 @@ button {
      background-color: orange;
 }
 
-section{
-     float:left;
-}
+/*===================================categories navigation================================*/
 #Cate li{
 float:left;
 display:block;
 align-items: center;
 min-width: 70px;
 }
-
+/*========================================feedback form================================================*/
 #container4>h1{
 
      font-size:50px;
