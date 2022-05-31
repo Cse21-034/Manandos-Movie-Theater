@@ -45,13 +45,14 @@ header p{
      text-shadow: 3px -3px 3px rgb(228, 143, 15); 
      text-align:center;
  }
-
+/*=================================================================================================================================*/
 h1{
    font-size: larger;
      color:aliceblue;
      background:transparent;
      text-align: center;
 }
+/*======================================================NAVIGATION==============================================================*/
 .list1{
   list-style-type: none; 
   padding: 0px; 
@@ -68,7 +69,7 @@ li .nav{
      border-right: 1px solid block;
      min-width: 60px;
      } 
-     .list1 ul {
+    .list1 ul {
           position: absolute;
           margin-top: 5%;
      }
