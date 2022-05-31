@@ -127,6 +127,7 @@ min-width: 70px;
 h2{
      color:white;
      float:left;
+     position:relative;
 }
 /*===============================================footer==============================*/
 
